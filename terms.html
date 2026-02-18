@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Términos de Servicio - Grupo InNova</title>
+    <link rel="icon" href="https://i.postimg.cc/XYt2DZTb/unnamed.jpg" type="image/jpeg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .font-display {
+            font-family: 'Outfit', sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            black: '#000000',
+                            gray: '#f5f5f7',
+                            accent: '#82C691',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 top-0 left-0 bg-white/80 backdrop-blur-xl border-b border-gray-100/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="flex-shrink-0 flex items-center gap-2 cursor-pointer">
+                    <img src="https://i.postimg.cc/XYt2DZTb/unnamed.jpg" alt="Grupo InNova Logo" class="w-10 h-10 object-contain rounded-full">
+                    <span class="font-bold text-xl tracking-tight">Grupo InNova</span>
+                </a>
+                <div class="flex items-center">
+                    <a href="index.html" class="text-sm font-medium text-gray-600 hover:text-black transition-colors">Volver al Inicio</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="flex-grow pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto w-full">
+        <h1 class="font-display text-4xl md:text-5xl font-bold mb-8 text-black">Términos de Servicio</h1>
+        <p class="text-gray-500 mb-12">Última actualización: Enero 2026</p>
+
+        <div class="prose prose-lg max-w-none text-gray-700 space-y-8">
+            <section>
+                <h2 class="text-2xl font-bold text-black mb-4">1. Aceptación de los Términos</h2>
+                <p>Al acceder y utilizar los servicios de Grupo InNova ("nosotros", "nuestro"), usted acepta estar sujeto a estos Términos de Servicio. Si no está de acuerdo con alguna parte de estos términos, no podrá acceder al servicio.</p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold text-black mb-4">2. Descripción del Servicio</h2>
+                <p>Grupo InNova ofrece servicios de automatización con Inteligencia Artificial, diseño web y 3D, marketing digital y posicionamiento SEO. Nos reservamos el derecho de modificar o discontinuar el servicio (o cualquier parte del contenido) en cualquier momento sin previo aviso.</p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold text-black mb-4">3. Propiedad Intelectual</h2>
+                <p>El servicio y su contenido original, características y funcionalidad son y seguirán siendo propiedad exclusiva de Grupo InNova y sus licenciantes. Nuestros servicios están protegidos por derechos de autor, marcas registradas y otras leyes tanto de Colombia como de otros países.</p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold text-black mb-4">4. Enlaces a Otros Sitios Web</h2>
+                <p>Nuestro servicio puede contener enlaces a sitios web o servicios de terceros que no son propiedad ni están controlados por Grupo InNova. No tenemos control ni asumimos responsabilidad por el contenido, políticas de privacidad o prácticas de sitios web o servicios de terceros.</p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold text-black mb-4">5. Limitación de Responsabilidad</h2>
+                <p>En ningún caso Grupo InNova, ni sus directores, empleados, socios, agentes, proveedores o afiliados, serán responsables por daños indirectos, incidentales, especiales, consecuentes o punitivos, incluyendo sin limitación, pérdida de beneficios, datos, uso, buena voluntad u otras pérdidas intangibles.</p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold text-black mb-4">6. Ley Aplicable</h2>
+                <p>Estos Términos se regirán e interpretarán de acuerdo con las leyes de Colombia, sin tener en cuenta sus disposiciones sobre conflictos de leyes.</p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold text-black mb-4">7. Contacto</h2>
+                <p>Si tiene alguna pregunta sobre estos Términos, por favor contáctenos a través de nuestro correo electrónico: <a href="mailto:grupoinnovacontact@gmail.com" class="text-brand-accent hover:underline">grupoinnovacontact@gmail.com</a></p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-100 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-xs text-gray-400">&copy; 2026 Grupo InNova. Todos los derechos reservados.</p>
+            <div class="flex gap-6 text-xs text-gray-400">
+                <a href="terms.html" class="hover:text-black underline">Terms of Service</a>
+                <a href="privacy.html" class="hover:text-black underline">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
